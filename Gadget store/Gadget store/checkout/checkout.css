@@ -1,0 +1,195 @@
+.checkout-section{
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+}
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.px-15{
+    padding-left:15px;
+    padding-right: 15px;
+}
+.t-center{
+    text-align: center;
+}
+
+.checkout-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+.shipping-address{
+    border-right: 1px solid gainsboro;
+    width: 66.66%;
+   
+}
+
+.coupen-code{
+    width: 33.33%;
+    padding: 2px;
+}
+
+.h4{
+    font-size: 17px;
+    color: #000;
+    line-height: 22px;
+    margin-block-start: 24px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.pb-0{
+    padding-bottom: 0px;
+}
+
+.checkout-name{
+    display: flex;
+}
+.checkout-name > div{
+    width: 50%;
+}
+
+.input-box{
+    padding-left:15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.shipping-address,.coupen-code label{
+    font-size: 14px;
+    display: inline-block;
+    margin-block-end: 5px;
+    line-height: 18px;
+    color:#333
+}
+
+.checkout-input{
+    width: 100%;
+    height: 36px;
+    border: 1px solid #dce1e5;
+    outline: 0;
+    font-size: 16px;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+}
+
+.shipping-address textarea{
+    width: 100%;
+    border: 1px solid #dce1e5;
+    outline: 0;
+    font-size: 16px;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    border-radius: 2px;
+    -webkit-appearance: none;
+}
+.checkout-p{
+    /* font-family: "Source Sans Pro"; */
+    font-size: 15px;
+    color: #000;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+
+.checkout-continue{
+    margin-top: 30px;
+    padding: 0px 15px 0px 0px;
+}
+
+
+.checkout-continue > a{
+    color: white;
+    background-color: #EB984E;
+    font-size: 16px;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+    border-radius: 2px;
+    float: right;
+  }
+  
+  .checkout-continue > a:hover{
+    color: white;
+    background-color: #e67d22;
+  }
+
+
+
+  
+
+  .coupen-code-input{
+    width: 80%;
+    margin-right: 15px;
+  }
+  .coupen-code-button{
+    width: 20%
+  }
+
+
+  .coupen-code-button{
+    color: white;
+    background-color: #EB984E;
+    padding: 10px 15px;
+    font-size: 14px;
+    display: inline-block;
+    float: right;
+    min-width: 60px
+  }  
+  .coupen-code-button:hover{
+    color: white;
+    background-color: #e67d22;
+  }
+
+  .b-top{
+    border-top:1px solid gainsboro
+  }
+
+  .justify-between{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .t-bold{
+    font-weight: 700;
+  }
+
+
+
+  @media(max-width:767px){
+    .shipping-address{
+        width: 100%;
+
+    }
+    .coupen-code{
+        width: 100%;
+        padding-top:30px;
+    }
+    .d-none{
+        display: none;
+    }
+  }
+  @media(min-width:767px){
+    .coupen-code{
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .shipping-address{
+        padding-left: 15px;
+        padding-right:15px;
+    }
+  }
